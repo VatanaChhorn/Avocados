@@ -11,6 +11,11 @@
 		356627BC25B6C6B80015A963 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356627BB25B6C6B80015A963 /* ContentView.swift */; };
 		356627BE25B6C6B90015A963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356627BD25B6C6B90015A963 /* Assets.xcassets */; };
 		356627C125B6C6B90015A963 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356627C025B6C6B90015A963 /* Preview Assets.xcassets */; };
+		3571C53225B9BB2200605D8E /* RecipeData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3571C52D25B9BB2200605D8E /* RecipeData.txt */; };
+		3571C53325B9BB2200605D8E /* Avocados.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3571C52E25B9BB2200605D8E /* Avocados.txt */; };
+		3571C53425B9BB2200605D8E /* RipeningData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3571C52F25B9BB2200605D8E /* RipeningData.txt */; };
+		3571C53525B9BB2200605D8E /* HeaderData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3571C53025B9BB2200605D8E /* HeaderData.txt */; };
+		3571C53625B9BB2200605D8E /* FactData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3571C53125B9BB2200605D8E /* FactData.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		356627BD25B6C6B90015A963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356627C025B6C6B90015A963 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		356627C225B6C6B90015A963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3571C52D25B9BB2200605D8E /* RecipeData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RecipeData.txt; path = "SWIFTUI-APP-02/Resources/Data/RecipeData.txt"; sourceTree = SOURCE_ROOT; };
+		3571C52E25B9BB2200605D8E /* Avocados.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Avocados.txt; path = "SWIFTUI-APP-02/Resources/Data/Avocados.txt"; sourceTree = SOURCE_ROOT; };
+		3571C52F25B9BB2200605D8E /* RipeningData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RipeningData.txt; path = "SWIFTUI-APP-02/Resources/Data/RipeningData.txt"; sourceTree = SOURCE_ROOT; };
+		3571C53025B9BB2200605D8E /* HeaderData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HeaderData.txt; path = "SWIFTUI-APP-02/Resources/Data/HeaderData.txt"; sourceTree = SOURCE_ROOT; };
+		3571C53125B9BB2200605D8E /* FactData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FactData.txt; path = "SWIFTUI-APP-02/Resources/Data/FactData.txt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		356627B825B6C6B80015A963 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				3571C52C25B9BB1900605D8E /* Data */,
 				356627B925B6C6B80015A963 /* AvocadosApp.swift */,
 				356627BB25B6C6B80015A963 /* ContentView.swift */,
 				356627BD25B6C6B90015A963 /* Assets.xcassets */,
@@ -67,6 +78,18 @@
 				356627C025B6C6B90015A963 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3571C52C25B9BB1900605D8E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3571C52E25B9BB2200605D8E /* Avocados.txt */,
+				3571C53125B9BB2200605D8E /* FactData.txt */,
+				3571C53025B9BB2200605D8E /* HeaderData.txt */,
+				3571C52D25B9BB2200605D8E /* RecipeData.txt */,
+				3571C52F25B9BB2200605D8E /* RipeningData.txt */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +151,11 @@
 			files = (
 				356627C125B6C6B90015A963 /* Preview Assets.xcassets in Resources */,
 				356627BE25B6C6B90015A963 /* Assets.xcassets in Resources */,
+				3571C53625B9BB2200605D8E /* FactData.txt in Resources */,
+				3571C53325B9BB2200605D8E /* Avocados.txt in Resources */,
+				3571C53425B9BB2200605D8E /* RipeningData.txt in Resources */,
+				3571C53225B9BB2200605D8E /* RecipeData.txt in Resources */,
+				3571C53525B9BB2200605D8E /* HeaderData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
