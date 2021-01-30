@@ -12,6 +12,10 @@ struct RecipeCardView: View {
     
     let recipe: Recipe
     
+    var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+    
+    @State private var showModal: Bool = false
+    
     // MARK: - BODY
     var body: some View {
         VStack (alignment: .leading, spacing: 12 ) {
@@ -67,6 +71,13 @@ struct RecipeCardView: View {
         .background(Color.white)
         .cornerRadius(12)
         .shadow(radius: 8 )
+        .onTapGesture {
+            self.hapticImpact.impactOccurred()
+            self.showModal = true
+        }
+        .sheet(isPresented: self.$showModal, content: {
+            RecipeDetailView_(recipe: recipe)
+        })
     }
 }
 
