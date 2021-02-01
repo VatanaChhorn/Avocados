@@ -34,6 +34,8 @@
 		35B6DA4925BEB67500FA8B05 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6DA4825BEB67500FA8B05 /* SettingView.swift */; };
 		35B6DA5125BEB70E00FA8B05 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6DA5025BEB70E00FA8B05 /* AppView.swift */; };
 		35B6DA5525BEBDDC00FA8B05 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6DA5425BEBDDC00FA8B05 /* HeaderView.swift */; };
+		35F0DA9A25C7CACF0093C036 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F0DA9925C7CACF0093C036 /* RipeningModel.swift */; };
+		35F0DA9D25C7CB550093C036 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F0DA9C25C7CB550093C036 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		35B6DA4825BEB67500FA8B05 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		35B6DA5025BEB70E00FA8B05 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		35B6DA5425BEBDDC00FA8B05 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		35F0DA9925C7CACF0093C036 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		35F0DA9C25C7CB550093C036 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 				352C7BFF25BEC6A60087ECCF /* HeaderData.swift */,
 				352C7C0B25BFDB130087ECCF /* FactData.swift */,
 				352C7C1125BFDDA80087ECCF /* RecipeData.swift */,
+				35F0DA9C25C7CB550093C036 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -145,7 +150,6 @@
 			children = (
 				356627BB25B6C6B80015A963 /* ContentView.swift */,
 				35B6DA4125BEB62600FA8B05 /* AvocadoView.swift */,
-				35B6DA4525BEB65300FA8B05 /* RipeningStagesView.swift */,
 				35B6DA4825BEB67500FA8B05 /* SettingView.swift */,
 				35B6DA5025BEB70E00FA8B05 /* AppView.swift */,
 				35B6DA5425BEBDDC00FA8B05 /* HeaderView.swift */,
@@ -155,6 +159,7 @@
 				359D9BBB25C4123B0047F032 /* RecipeDetailView .swift */,
 				359D9BB825C411BD0047F032 /* RecipeCookingView.swift */,
 				359D9BB525C4107B0047F032 /* RecipeRatingView.swift */,
+				35B6DA4525BEB65300FA8B05 /* RipeningStagesView.swift */,
 				35379D0A25C66F8C00F04508 /* RipeningView.swift */,
 			);
 			path = View;
@@ -166,6 +171,7 @@
 				352C7BFC25BEC65C0087ECCF /* HeaderModel.swift */,
 				352C7C0825BFDACC0087ECCF /* FetchModel.swift */,
 				352C7C0E25BFDD200087ECCF /* RecipeModel.swift */,
+				35F0DA9925C7CACF0093C036 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,8 +252,10 @@
 			files = (
 				356627BC25B6C6B80015A963 /* ContentView.swift in Sources */,
 				359D9BB625C4107B0047F032 /* RecipeRatingView.swift in Sources */,
+				35F0DA9A25C7CACF0093C036 /* RipeningModel.swift in Sources */,
 				35B6DA4925BEB67500FA8B05 /* SettingView.swift in Sources */,
 				352C7C0925BFDACC0087ECCF /* FetchModel.swift in Sources */,
+				35F0DA9D25C7CB550093C036 /* RipeningData.swift in Sources */,
 				35B6DA5125BEB70E00FA8B05 /* AppView.swift in Sources */,
 				35B6DA4625BEB65300FA8B05 /* RipeningStagesView.swift in Sources */,
 				35B6DA4225BEB62600FA8B05 /* AvocadoView.swift in Sources */,
